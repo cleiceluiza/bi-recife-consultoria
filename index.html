@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+	<html lang=”pt-br”>	
+	
+	<head>	
+		<title> BI Recife Consultoria </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="style/main.css".css">		
+	</head>
+	
+	<body>
+		<header class="cabecalho">
+		<h1> BI Recife Consultoria - Seu insight para tomada de decisão com Dashboard </h1>
+		</header>
+			
+		<aside> 			
+			<section>
+				<h2> Benefícios </h2>
+				<ol>
+					<li> Cumprimento da legislação </li>
+					<li> Confiança do cliente </li>
+					<li> Produto de Qualidade </li>
+				</ol>
+			</section>
+			
+			<section>
+				<h2> Compliance </h2>
+				<ul>
+					<li> LGPD </li>
+					<li>  </li>
+					<li>  </li>
+				</ul>
+			</section>
+			
+			<section>
+				<h2> Dúvidas </h2>
+				<dl>
+					<dt> O que é LGPD?
+						<dd> Lei geral de Processamento de dados </dd>
+					<dt> Quando entrar em vigor?
+						<dd> Agosto 2021 </dd>
+					<dt> Como me adequar?
+						<dd> Conpliance </dd>
+					</dt>
+				</dl>
+			</section>
+		</aside>
+						
+		<main>
+		<p>
+		Esta págiina HTML está sendo construída à medida que avanço no curso de TI (HTML5). Em conjunto está sendo feita também as adequações com os estudos de CSS; JavaScript e PHP.
+		Espero que no final dê tudo certo. A construção está se dando no VS Code e sendo conferida no navegador Chrome.
+		<p>
+		
+		<h2> Navegue escutando uma boa música </h2>	
+		<audio src="C:\Users\Cleice\OneDrive\Projetos DEV\bi_recife_consultoria\imagens\Nazareth - Love Hurts.mp3" controls autoplay loop> </audio>	
+		
+		<h2> Um brinde ao Sport </h2> 
+		<video src="C:\Users\Cleice\OneDrive\Projetos DEV\bi_recife_consultoria\imagens\Um brinde ao Sport.mp4" controls autoplay></video>
+		<p></p>
+					
+				<article> 
+				Sobre LGPD
+				<article> 
+
+				<p></p>
+				<section>
+					<h2> Tabela com Título </h2>
+					<table width="1008" Border="1">
+						<tr> 
+							<th> Aluno (a) </th>
+							<th> Disciplina </th>
+							<th> Nota </th>
+						</tr>
+						<tr> 
+							<td> Cleice </td>
+							<td> HTML </td>
+							<td> 10,0 </td>
+						</tr>
+						<tr> 
+							<td> Luiza </td>
+							<td> HTML </td>
+							<td> 9,0 </td>
+						</tr>
+					</table>
+				</section>
+				<p>
+
+				</p>
+				<section>
+					<h2> Tabela com Cabeçalho e Rodapé </h2>
+					<table width="1008" Border="1">
+						<thead>
+							<tr> 
+								<th> Mês </th>
+								<th> Horas/Aula </th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr> 
+								<th> Junho </th>
+								<th> 40 </th>
+							</tr>
+							<tr> 
+								<th> Julho </th>
+								<th> 30 </th>
+							</tr>
+						</tbody>
+						</tfoot>
+							<tr> 
+								<th> Total </th>
+								<th> 70 </th>
+							</tr>
+						</tfoot>
+					</table>
+				<p>
+
+				</p>
+					<h2> Tabela com Colspan (mescla coluna) </h2>
+					<table width="100%" Border="1">
+						<tr> 
+							<th> Aluno </th>
+							<th colspan="2"> Disciplinas </th>
+						</tr>
+						<tr> 
+							<td> Alex </td>
+							<td> HTML </td>
+							<td> Ambiente WEB </td>
+						</tr>							
+					</table>
+							<p>
+
+							</p>	
+					<h2> Tabela com Rolspan (mescla linha) </h2>
+					<table width="100%" Border="1">
+						<tr> 
+							<th> Aluno: </th>
+							<td> Alex </td>
+						</tr>
+						<tr> 
+							<th rowspan="2"> Disciplinas: </th>
+							<td> HTML </td>
+						</tr>
+						<tr> 
+							<td> Ambiente WEB </td>
+						</tr>							
+					</table>				
+				<form action="processa_form.php" method="post">
+			<p></p>
+			<h2>Pré-Cadastro</h2>
+					<fieldset>
+						<legend> Dados Gerais </legend>
+						
+						<label for="nome"> Nome: </label>
+						<input type="text" minlength="3" id="nome" name="nome" required />
+						
+						<label for="data de nascimento"> Data de Nascimento: </label>
+						<input type="text" id="data_nascimento" name="data_nascimento" required />
+						
+						<label for="cpf"> CPF: </label>
+						<input type="text" maxlength="11" minlength="11" id="cpf" name="cpf" required password/>
+						
+						<label for="tel"> Tel. Celular </label>
+						<input type="tel" maxlength="13" id="tel" name="tel" placeholder="81-99999-9999" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required />
+					</fieldset>
+					
+					<fieldset>
+						<legend> Endereço </legend>
+						
+						<label for="tipo_endereco"> Tipo: </label>
+						<select id="tipo_endereco">
+							<option value=""> Selecione </option>
+							<option value="Rua"> Rua </option>
+							<option value="Av."> Avenida </option>
+							<option value="Estrada"> Estrada </option>
+							<option value="Rodovia"> Rodovia </option>
+							<option value="Outro"> Outro </option>
+						</select>
+						
+						<label for="logradouro_endereco"> Logradouro: </label>
+						<input type="text" id="logradouro_endereço" />
+						
+						<label for="numero_endereco"> Nº: </label>
+						<input type="text" id="numero_endereco" />
+						
+						<label for="complemento_endereco"> Complemento: </label>
+						<input type="complemento_endereco" id="complemento_endereco" name="complemento_endereco"/>						
+					</fieldset>
+					<p>
+					</fieldset>
+						<legend> Fale Conosco </legend>
+						
+						<input type="radio" name="tipo_msg" value="Sugestão" />
+						<label for="tipo_msg"> Sugestão </label>
+											
+						<input type="radio" name="tipo_msg" value="Critica" />
+						<label for="tipo_msg"> Crítica </label>
+						
+						<input type="radio" name="tipo_msg" value="Elogio" />
+						<label for="tipo_msg"> Elogio </label>
+						<p>
+						<label for="msg" Mensagem </label>
+						<textarea id="msg"></textarea>
+					</fieldset>
+					<p>				
+					</fieldset>
+						<button type="submit"> Enviar sua mensagem </button>
+						<button type="reset"> Limpar o formulário </button>
+					</fieldset>
+				</form>
+			</main>	
+
+			<nav>
+				<h2> Instagram </h2>	
+				<a href="https://www.instagram.com/bi_recife_consultoria/"> Link para Instagram</a>		
+				<h2> Github </h2>	
+				<a href="https://github.com/cleiceluiza"> Link para Github</a>	
+			</nav>		
+
+			<footer class="rodape">   
+				<p>Desenvolvido por: Cleice Luiza (81) 9 97587437</p>	
+				<P>Endereço: Rua Amazonita, Nº 999999 - Conceição/Paulista</P>
+				<p>CNPJ: 99.999.000/9999-99</p>
+			</footer>			
+			
+	</body>	
+
+	</html>
